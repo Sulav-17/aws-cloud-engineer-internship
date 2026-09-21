@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+crash.log
+
+# Raw internship data
+rets_property.sql
+rets_property.sql.*
+data/raw/
