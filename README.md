@@ -34,6 +34,17 @@ PropertyLite is a Flask application that reads sample property data from a CSV f
 
 ## Repository Contents
 
-- `propertylite/` — application code and sample data
-- `week-01/` — setup and AWS fundamentals notes
-- `week-02/` — IAM policy, test results, and screenshots
+
+- `propertylite/` - application code and sample data
+- `week-01/` - cloud fundamentals, account setup, security, and budgets
+- `week-02/` - IAM policies, permissions testing, and Access Analyzer
+- `week-03/` - EC2 instances, deploying PropertyLite, and EBS storage
+- `week-04/` - S3 storage, RDS databases, DynamoDB, and property data preparation
+- `week-05/` - VPC networking, subnets, routing, and security groups
+- `week-06/` - load balancing, Auto Scaling, and application availability
+- `week-07/` - serverless applications and event-driven architecture
+- `week-08/` - infrastructure as code with Terraform
+- `week-09/` - Docker containers and deployment with ECS Fargate
+- `week-10/` - CI/CD pipelines and automated deployments
+- `week-11/` - monitoring, alarms, architecture review, and cost optimization
+- `week-12/` - capstone combining infrastructure, deployment, data, and monitoring for PropertyLite
