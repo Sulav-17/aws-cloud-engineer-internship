@@ -1,5 +1,11 @@
 # Week 3: EC2 and PropertyLite
 
+## Summary
+
+This week, I deployed PropertyLite on an AWS EC2 instance using Amazon Linux 2023. I used a startup script to install the dependencies and start the app automatically. I configured the security group so SSH access was limited to my IP, while port 8080 allowed access to the application. I tested the API using curl, confirmed it returned the expected property data, and connected to the server through SSH.
+
+I also created an EBS snapshot to back up the server’s disk and learned how it could be used to restore data to a new volume. For troubleshooting, I checked that my public IP matched the SSH rule and learned that “My IP” does not update automatically. After finishing, I terminated the instance, confirmed the volume was deleted, removed the snapshot, and documented the work in my Week 3 runbook.
+
 ## Setup and Deployment
 
 - Logged into AWS from Ubuntu using the `internship` profile and confirmed I was using `sulav-admin`.
