@@ -28,6 +28,7 @@ I’m using PropertyLite, a small property listing application, to practise depl
 - Week 3: Deployed PropertyLite on EC2, tested its endpoints, connected through SSH, and practiced EBS snapshots.
 - Week 4: Worked with S3, imported property data into RDS MySQL, ran SQL queries, and tested DynamoDB.
 - Week 5: Built a VPC with public and private subnets, connected through a bastion, and tested outbound access through a NAT gateway.
+- Week 6: Deployed PropertyLite behind an ALB and Auto Scaling Group. Verified automatic replacement and ran a CPU load test; no scale-out was observed.
 
 
 ## PropertyLite
